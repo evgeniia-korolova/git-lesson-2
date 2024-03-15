@@ -3,9 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    max-width: 800px;
+    padding: 100px;
+}
 .title {
     margin: 50px auto;
     color: brown;
     text-align: center;
+}
+
+.image {
+    margin: 0 auto;
 }
