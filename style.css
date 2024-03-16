@@ -6,6 +6,7 @@
 body {
     max-width: 800px;
     padding: 100px;
+    margin: 0 auto;
 }
 .title {
     margin: 50px auto;
@@ -14,5 +15,29 @@ body {
 }
 
 .image {
+    
     margin: 0 auto;
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    padding-top: 100px;
+}
+
+h1 {
+    text-align: center;
 }
